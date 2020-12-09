@@ -1,7 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: linear-gradient(#0051e5, #02aee0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*========================================================
+
+
+                      Header
+
+
+===========================================================*/
 
 
 
-/*----Work Section---*/
+
+/*========================================================
+
+
+                      Work Section
+
+
+===========================================================*/
+
 .work img {
   width: 295px;
 }
