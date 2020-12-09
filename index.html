@@ -61,7 +61,7 @@
 
     <section class="about" id="about">
       <h2>I’m Becky Hassler. I’m a web design student at the University of Florida.</h2>
-      <img src="images/orange-lines" alt="Orange Lines" title="Orange Lines">
+      <img src="images/orange-lines.png" alt="Orange Lines" title="Orange Lines">
       <p>I am in the process of completing my masters in web design at the University of Florida. I have experience in coding in HTML and CSS. I also have intermediate skills using Photoshop.</p>
 
       <p>I currently live in the Hudson Valley of New York state. In my free time, I love practicing yoga. I also enjoying watercolor painting.</p>
@@ -70,7 +70,36 @@
     </section>
 
     <section class="contact" id="contact">
-      
+      <form class="contact-form" action="" method="post">
+        <div class="first-name">
+          <label for="firstname" class="label_input_wrap">First Name</label>
+          <input type="text" name="firstname" id="firstname">
+        </div>
+
+        <div class="last-name">
+          <label for="lastname" class="label-input-wrap">Last Name</label>
+          <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div class="email">
+          <label for="email" class="label_input_wrap">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <div class="telephone">
+          <label for="telephone" class="label_input_wrap">Telephone</label>
+          <input type="tel" name="telephone" id="telephone">
+        </div>
+
+        <div class="message">
+          <label for="message" class="label_input_wrap">Telephone</label>
+          <textarea name="message" id="message" cols="55" rows="15"></textarea>
+        </div>
+
+<div class="submit">
+  <input type="submit" value="Send">
+</div>
+      </form>
     </section>
   </main>
   <script src="lightbox/js/lightbox.js"></script>
