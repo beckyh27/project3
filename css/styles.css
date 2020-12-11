@@ -38,6 +38,7 @@ header {
   left: 0;
   right: 0;
   margin: 40px 20px 0;
+  z-index: 99;
 }
 
 header nav ul li {
@@ -47,6 +48,8 @@ header nav ul li {
 
 header nav ul li img {
   float: left;
+  position: relative;
+  top: -30px;
 }
 
 header nav a {
@@ -67,15 +70,16 @@ header nav a {
 *
 *
 ===========================================================*/
+
 .container {
   height: 800px;
 }
 
 .hills {
   width: 100%;
-  bottom: -110px;
+  bottom: -140px;
   position: relative;
-  z-index: 4;
+  z-index: 5;
 }
 
 .home-section {
@@ -87,14 +91,14 @@ header nav a {
   font-family: 'Patrick Hand', cursive;
   font-size: 30px;
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%,0);
   z-index: 2;
 }
 
 .sun {
-  width: 325px;
+  width: 300px;
   position: absolute;
   top: 15%;
   left: 50%;
@@ -102,8 +106,22 @@ header nav a {
   z-index: 1;
 }
 
-.clouds {
+.home-clouds1 {
+  width: 95%;
   position: absolute;
+  z-index: 3;
+  left: -1500px;
+  top: 90px;
+  animation: drift 45s forwards infinite linear;
+}
+
+.home-clouds2 {
+  width: 95%;
+  position: absolute;
+  z-index: 3;
+  left: -10px;
+  top: 90px;
+  animation: drift 45s forwards infinite linear;
 }
 
 .small-sunflower {
@@ -111,16 +129,47 @@ header nav a {
   height: 350px;
   left: -17%;
   top: 150px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .medium-sunflower {
   position: relative;
-  height: 470px;
+  height: 420px;
   right: -17%;
   top: 175px;
-  z-index: 3;
+  z-index: 4;
 }
+
+@keyframes drift {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+
+/*========================================================
+*
+*
+*                      About Section
+*
+*
+===========================================================*/
+
+.profile-pic {
+  float: left;
+  width: 25%;
+  margin: 0 50px 0 200px;
+  border-radius: 20px;
+}
+
+.about .container {
+  margin-top: 90px;
+  height: 700px;
+  position: relative;
+}
+
 
 /*========================================================
 *
