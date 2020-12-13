@@ -179,6 +179,34 @@ header nav a {
 /*========================================================
 *
 *
+*                      Work Section
+*
+*
+===========================================================*/
+
+.work .container {
+  text-align: center;
+}
+
+.work img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.lb-caption {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.slider {
+  margin: 0 auto;
+  width: 600px;
+}
+
+/*========================================================
+*
+*
 *                      About Section
 *
 *
@@ -215,20 +243,18 @@ header nav a {
   margin-top: 27px;
 }
 
-
 /*========================================================
 *
 *
-*                      Work Section
+*                      Footer
 *
 *
 ===========================================================*/
 
-.work img {
-  width: 295px;
+footer {
+  text-align: center;
 }
 
-.lb-caption {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+footer p {
+  margin: 100px 0 50px;
 }
