@@ -12,6 +12,10 @@ html {
   background-size: cover;
 }
 
+body {
+   overflow-x: hidden;
+}
+
 h2,
 h3,
 h4,
@@ -117,16 +121,25 @@ header nav a {
   z-index: 3;
   left: -1500px;
   top: 90px;
-  animation: drift 45s forwards infinite linear;
+  animation: idrift 90s forwards infinite linear 45s;
 }
 
 .home-clouds2 {
   width: 95%;
   position: absolute;
   z-index: 3;
-  left: -10px;
+  left: -1500px;
   top: 90px;
-  animation: drift 45s forwards infinite linear;
+  animation: idrift 90s forwards infinite linear;
+}
+
+.home-clouds3 {
+  width: 95%;
+  position: absolute;
+  z-index: 3;
+  right: -1500px;
+  top: 90px;
+  animation: drift 120s forwards 1 linear;
 }
 
 .small-sunflower {
@@ -145,12 +158,21 @@ header nav a {
   z-index: 4;
 }
 
-@keyframes drift {
+@keyframes idrift {
   from {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(1200px);
+    transform: translateX(3000px);
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(-1500px);
+  }
+  to {
+    transform: translateX(3000px);
   }
 }
 
