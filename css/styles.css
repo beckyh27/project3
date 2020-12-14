@@ -1,3 +1,11 @@
+/*========================================================
+*
+*
+*                      Universal Styling
+*
+*
+===========================================================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -121,34 +129,24 @@ header nav a {
 *
 ===========================================================*/
 
-.container {
+.home .container {
   height: 800px;
-}
-
-.hills {
-  width: 100%;
-  bottom: -55px;
+  text-align: center;
   position: relative;
-  z-index: 3;
 }
 
 .ground {
   width: 100%;
-  bottom: -50px;
+  bottom: -175px;
   position: relative;
   z-index: 5;
-}
-
-.home-section {
-  text-align: center;
-  position: relative;
 }
 
 .home-section h1 {
   font-family: 'Patrick Hand', cursive;
   font-size: 30px;
   position: absolute;
-  top: 27%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%,0);
   z-index: 2;
@@ -157,7 +155,7 @@ header nav a {
 .sun {
   width: 300px;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%,0);
   z-index: 1;
@@ -190,22 +188,6 @@ header nav a {
   animation: drift 120s forwards 1 linear;
 }
 
-.small-sunflower {
-  position: relative;
-  height: 400px;
-  left: -17%;
-  top: 150px;
-  z-index: 4;
-}
-
-.medium-sunflower {
-  position: relative;
-  height: 500px;
-  right: -17%;
-  top: 175px;
-  z-index: 4;
-}
-
 @keyframes idrift {
   from {
     transform: translateX(0px);
@@ -227,52 +209,23 @@ header nav a {
 /*========================================================
 *
 *
-*                      Work Section
-*
-*
-===========================================================*/
-
-.work .container {
-  text-align: center;
-}
-
-.work img {
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.lb-caption {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-}
-
-.slider {
-  margin: 0 auto;
-  width: 600px;
-}
-
-/*========================================================
-*
-*
 *                      About Section
 *
 *
 ===========================================================*/
+
+.about .container {
+  height: 500px;
+  padding-top: 150px;
+  margin: 300px 250px 0 200px;
+  position: relative;
+}
 
 .profile-pic {
   float: left;
   width: 40%;
   margin-right: 125px;
   border-radius: 20px;
-}
-
-.about .container {
-  padding-top: 150px;
-  margin-right: 250px;
-  margin-left: 200px;
-  height: 700px;
-  position: relative;
 }
 
 .about h2 {
@@ -290,6 +243,67 @@ header nav a {
   line-height: 1.6;
   margin-top: 27px;
 }
+
+/*========================================================
+*
+*
+*                      Work Section
+*
+*
+===========================================================*/
+
+.work .container {
+  position: relative;
+  padding-top: 200px;
+  height: 500px;
+}
+
+.work{
+  text-align: center;
+}
+
+.work img {
+  height: 500px;
+  margin: 0 50px;
+}
+
+.lb-caption {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/*========================================================
+*
+*
+*                      Slider Styling
+*
+*
+===========================================================*/
+
+.slider {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.slick-slide {
+  position: relative;
+}
+
+.slick-prev::before {
+  content: "\f0a8";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  font-size: 27px;
+  color: red;
+}
+
+/*========================================================
+*
+*
+*                      Contact Section
+*
+*
+===========================================================*/
 
 /*========================================================
 *
