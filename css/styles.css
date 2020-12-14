@@ -45,15 +45,45 @@ header {
   z-index: 99;
 }
 
+
 header nav ul li {
   display: inline;
   text-align: right;
+  padding: 15px 0 10px;
 }
 
-header nav ul li img {
+header nav ul li:hover {
+  background-image: linear-gradient(#f77c2a, #fad126);
+  border-radius: 10px;
+}
+
+.logo {
   float: left;
   position: relative;
-  top: -30px;
+  top: -15px;
+  width: 75px;
+}
+
+.logo-cloud-top {
+  width: 40px;
+  position: relative;
+  top: -75px;
+  right: -17px;
+}
+
+.logo-cloud-top:hover {
+  animation: logo-drift-top 1s forwards 1 linear;
+}
+
+.logo-cloud-bottom {
+  width: 40px;
+  position: relative;
+  top: -65px;
+  left: -50px;
+}
+
+.logo-cloud-bottom:hover {
+  animation: logo-drift-bottom 1s forwards 1 linear;
 }
 
 header nav a {
@@ -63,6 +93,24 @@ header nav a {
   font-weight: normal;
   font-size: 20px;
   margin: 20px 20px 0;
+}
+
+@keyframes logo-drift-top {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-75px);
+  }
+}
+
+@keyframes logo-drift-bottom {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(65px);
+  }
 }
 
 /*========================================================
