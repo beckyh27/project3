@@ -12,7 +12,6 @@
 }
 
 html {
-  color: #fbfbfb;
   background-image: linear-gradient(#0051e5, #02aee0);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,6 +20,7 @@ html {
 
 body {
   overflow-x: hidden;
+  color: #fbfbfb;
 }
 
 h1,
@@ -34,10 +34,13 @@ h6 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6rem;
 }
 
 .cloud {
   width: 175px;
+  position: absolute;
 }
 
 .orange-line {
@@ -72,41 +75,34 @@ header {
 header nav ul li {
   display: inline;
   text-align: right;
-  padding: 15px 0 10px;
+  padding: 12px 0 7px;
+  border-radius: 4px;
+  transition: 1s ease-in-out;
 }
 
 header nav ul li:hover {
   background-image: linear-gradient(#f77c2a, #fad126);
-  border-radius: 7px;
+  transition: 1s ease-in-out;
 }
 
 .logo {
   float: left;
+}
+
+.logo-div {
   position: relative;
-  top: -15px;
+  top: -35px;
+  background-image: url('../images/reverse-logo.png');
   width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: 75px 75px;
+  transition: 0.5s ease-in-out;
 }
 
-.logo-cloud-top {
-  width: 40px;
-  position: relative;
-  top: -75px;
-  right: -17px;
-}
-
-.logo-cloud-top:hover {
-  animation: logo-drift-top 1s forwards 1 linear;
-}
-
-.logo-cloud-bottom {
-  width: 40px;
-  position: relative;
-  top: -65px;
-  left: -50px;
-}
-
-.logo-cloud-bottom:hover {
-  animation: logo-drift-bottom 1s forwards 1 linear;
+.logo-div:hover {
+  background-image: url('../images/logo.png');
+  transition: 0.5s ease-in-out;
 }
 
 header nav a {
@@ -116,27 +112,7 @@ header nav a {
   letter-spacing: .05rem;
   font-weight: 500;
   font-size: 20px;
-  margin: 20px 20px 0;
-}
-
-@keyframes logo-drift-top {
-  from {
-    transform: translateX(0px);
-  }
-
-  to {
-    transform: translateX(-75px);
-  }
-}
-
-@keyframes logo-drift-bottom {
-  from {
-    transform: translateX(0px);
-  }
-
-  to {
-    transform: translateX(65px);
-  }
+  margin: 20px 15px 0;
 }
 
 /*========================================================
@@ -146,7 +122,6 @@ header nav a {
 *
 *
 ===========================================================*/
-
 .home .container {
   text-align: center;
   position: relative;
@@ -164,7 +139,7 @@ h1 {
   line-height: 1.6;
   letter-spacing: .05rem;
   position: absolute;
-  top: 37%;
+  top: 220px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 2;
@@ -173,7 +148,7 @@ h1 {
 .sun {
   width: 300px;
   position: absolute;
-  top: 20%;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 1;
@@ -184,7 +159,7 @@ h1 {
   position: absolute;
   z-index: 3;
   left: -1500px;
-  top: 120px;
+  top: 110px;
   animation: idrift 90s forwards infinite linear 45s;
 }
 
@@ -193,7 +168,7 @@ h1 {
   position: absolute;
   z-index: 3;
   left: -1500px;
-  top: 120px;
+  top: 110px;
   animation: idrift 90s forwards infinite linear;
 }
 
@@ -202,7 +177,7 @@ h1 {
   position: absolute;
   z-index: 3;
   right: -1500px;
-  top: 120px;
+  top: 110px;
   animation: drift 120s forwards 1 linear;
 }
 
@@ -233,82 +208,75 @@ h1 {
 *
 *
 ===========================================================*/
-
 .about .container {
   padding: 50px 0 150px;
   position: relative;
-  margin: 300px 250px 0 200px;
-  position: relative;
+  margin: 300px 225px 0 225px;
 }
 
 .profile-pic {
-  float: left;
-  width: 40%;
-  margin-right: 125px;
+  width: 345px;
+  margin-right: 100px;
   border-radius: 20px;
 }
 
+figure {
+  float: left;
+}
+
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding-top: 3px;
+}
+
 h3 {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.6;
   letter-spacing: .05rem;
 }
 
 .orange-lines {
   width: 150px;
-  padding-top: 30px;
-}
-
-.about-text {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-top: 27px;
+  padding: 20px 0;
 }
 
 .about-cloud1 {
-  position: absolute;
   top: -100px;
   left: 0;
 }
 
 .about-cloud2 {
-  position: absolute;
   top: -90px;
   right: 170px;
 }
 
 .about-cloud3 {
-  position: absolute;
   top: 100px;
   right: -250px;
 }
 
 .about-cloud4 {
-  position: absolute;
   bottom: 50px;
   right: -300px;
 }
 
 .about-cloud5 {
-  position: absolute;
   bottom: -25px;
   right: 100px;
 }
 
 .about-cloud6 {
-  position: absolute;
   bottom: -100px;
   left: 100px;
 }
 
 .about-cloud7 {
-  position: absolute;
   bottom: 0;
   left: -200px;
 }
 
 .about-cloud8 {
-  position: absolute;
   top: 200px;
   left: -300px;
 }
@@ -325,7 +293,6 @@ h3 {
   position: relative;
   padding-bottom: 100px;
   padding: 50px 0;
-  position: relative
 }
 
 .work {
@@ -333,37 +300,31 @@ h3 {
 }
 
 .work-cloud1 {
-  position: absolute;
   top: 200px;
   right: 0;
 }
 
 .work-cloud2 {
-  position: absolute;
   bottom: 100px;
   right: -50px;
 }
 
 .work-cloud3 {
-  position: absolute;
-  bottom: -200px;
-  right: 100px;
+  bottom: -50px;
+  right: 250px;
 }
 
 .work-cloud4 {
-  position: absolute;
   bottom: -100px;
   left: 300px;
 }
 
 .work-cloud5 {
-  position: absolute;
   bottom: 20px;
-  left: 0px;
+  left: 0;
 }
 
 .work-cloud6 {
-  position: absolute;
   top: 200px;
   left: -100px;
 }
@@ -386,7 +347,6 @@ h3 {
 *
 *
 ===========================================================*/
-
 .slider {
   margin: 0 auto;
   width: 800px;
@@ -396,11 +356,26 @@ h3 {
   position: relative;
 }
 
+.slick-prev {
+  left: -35px;
+}
+
 .slick-prev:before {
-  content: "\f0a8";
+  content: "\f053";
   font-family: "FontAwesome";
   color: #fbfbfb;
-  font-size: 26px;
+  font-size: 30px;
+}
+
+.slick-next {
+  right: -35px;
+}
+
+.slick-next:before {
+  content: "\f054";
+  font-family: "FontAwesome";
+  color: #fbfbfb;
+  font-size: 30px;
 }
 
 /*========================================================
@@ -410,7 +385,6 @@ h3 {
 *
 *
 ===========================================================*/
-
 .contact .container {
   position: relative;
   padding: 50px 0;
@@ -418,16 +392,10 @@ h3 {
   margin: 0 auto;
 }
 
-.orange-lines {
-  width: 150px;
-  padding-top: 30px;
-  margin: 0 auto;
-}
-
 .contact p {
   text-align: center;
   max-width: 400px;
-  margin: 10px auto 20px;
+  margin: 0 auto 20px;
   line-height: 1.6;
 }
 
@@ -444,6 +412,7 @@ h3 {
   display: block;
   margin-bottom: 5px;
 }
+
 .input-section {
   margin-bottom: 10px;
 }
@@ -464,10 +433,6 @@ label {
   font-weight: 600;
 }
 
-.submit {
-  text-align: center;
-}
-
 .submit input {
   background-image: linear-gradient(#fad126, #f77c2a);
   color: #fbfbfb;
@@ -483,6 +448,41 @@ label {
   background-image: linear-gradient(#f77c2a, #fad126);
 }
 
+.contact-cloud1 {
+  top: 300px;
+  right: 300px;
+}
+
+.contact-cloud2 {
+  top: 200px;
+  right: -300px;
+}
+
+.contact-cloud3 {
+  bottom: 300px;
+  right: -100px;
+}
+
+.contact-cloud4 {
+  bottom: 0;
+  right: 0;
+}
+
+.contact-cloud5 {
+  bottom: -50px;
+  left: -200px;
+}
+
+.contact-cloud6 {
+  bottom: 300px;
+  left: 0;
+}
+
+.contact-cloud7 {
+  top: 200px;
+  left: -200px;
+}
+
 /*========================================================
 *
 *
@@ -490,13 +490,11 @@ label {
 *
 *
 ===========================================================*/
-
 footer {
   text-align: center;
   height: 100px;
 }
 
-.footer p {
-  margin-bottom: 50px;
-  padding-bottom: 100px color: #fbfbfb;
+footer p {
+  padding: 100px 0 100px;
 }
