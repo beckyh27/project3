@@ -345,18 +345,6 @@ h3 {
   top: 200px;
   left: -100px;
 }
-
-.slider-img {
-  height: 400px;
-  margin: 0 50px;
-  border-radius: 5px;
-}
-
-.lb-caption {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-}
-
 /*========================================================
 *
 *
@@ -368,6 +356,27 @@ h3 {
 .slider {
   margin: 0 auto;
   width: 800px;
+}
+
+.slider-img {
+  height: 400px;
+  margin: 0 50px;
+  border-radius: 5px;
+}
+
+.lb-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fbfbfb;
+}
+
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #fbfbfb;
 }
 
 .slick-slide {
