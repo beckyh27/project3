@@ -15,7 +15,7 @@
 
     <meta name="keywords" content="portfolio website web design graphic becky hassler">
     <meta name="description" content="See the web and graphic design portfolio of Becky Hassler.">
-    
+
     <meta charset="utf-8">
     <title>Becky Hassler Design Portfolio</title>
 
@@ -182,12 +182,12 @@
     <header>
       <nav>
         <ul>
-          <li><a href="../p3-hassler-rebecca/index.html#home" class="logo">
+          <li><a href="../index.html#home" class="logo">
               <div class="logo-div"></div>
             </a></li>
-          <li><a href="../p3-hassler-rebecca/index.html#about">About</a></li>
-          <li><a href="../p3-hassler-rebecca/index.html#work">Work</a></li>
-          <li><a href="../p3-hassler-rebecca/index.html#contact">Contact</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#work">Work</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
