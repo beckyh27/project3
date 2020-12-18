@@ -5,7 +5,6 @@
 *
 *
 ===========================================================*/
-
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +61,6 @@ h2 {
 *
 *
 ===========================================================*/
-
 header {
   position: fixed;
   text-align: right;
@@ -122,7 +120,6 @@ header nav a {
 *
 *
 ===========================================================*/
-
 .home {
   text-align: center;
   position: relative;
@@ -147,6 +144,7 @@ header nav a {
   transform: translate(-50%, 0);
   z-index: 1;
 }
+
 .ground {
   width: 100%;
   bottom: -180px;
@@ -208,7 +206,6 @@ header nav a {
 *
 *
 ===========================================================*/
-
 .about {
   padding-top: 50px;
   position: relative;
@@ -306,8 +303,7 @@ figcaption {
 *
 *
 ===========================================================*/
-
-.work{
+.work {
   position: relative;
   padding: 50px 0 100px;
   text-align: center;
@@ -352,6 +348,7 @@ figcaption {
   top: 200px;
   left: -100px;
 }
+
 /*========================================================
 *
 *
@@ -359,7 +356,6 @@ figcaption {
 *
 *
 ===========================================================*/
-
 .slider {
   margin: 0 auto;
   width: 800px;
@@ -378,12 +374,12 @@ figcaption {
 }
 
 .lb-data .lb-number {
-    display: block;
-    clear: left;
-    padding-bottom: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    color: #fbfbfb;
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #fbfbfb;
 }
 
 .slick-slide {
@@ -418,21 +414,21 @@ img.lb-image {
 }
 
 .slick-dots li button:before {
-    font-family: 'slick';
-    font-size: 30px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    content: '•';
-    text-align: center;
-    opacity: .25;
-    color: #fbfbfb;
-    padding-top: 20px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: 'slick';
+  font-size: 30px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #fbfbfb;
+  padding-top: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*========================================================
@@ -442,7 +438,6 @@ img.lb-image {
 *
 *
 ===========================================================*/
-
 .contact {
   position: relative;
   padding: 50px 0;
@@ -548,7 +543,6 @@ label {
 *
 *
 ===========================================================*/
-
 footer {
   text-align: center;
   height: 100px;
