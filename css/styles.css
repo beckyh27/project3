@@ -235,6 +235,7 @@ figcaption {
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: .05rem;
+  padding-top: 30px;
 }
 
 .orange-lines {
@@ -411,8 +412,9 @@ figcaption {
   font-size: 30px;
 }
 
-element.style {
-    height: 800px;
+img.lb-image {
+  height: auto !important;
+  width: 700px !important;
 }
 
 .slick-dots li button:before {

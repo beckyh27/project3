@@ -3,6 +3,19 @@
 <html lang="en" dir="ltr">
 
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNFDGEZCKX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VNFDGEZCKX');
+    </script>
+
+    <meta name="keywords" content="portfolio website web design graphic becky hassler">
+    <meta name="description" content="See the web and graphic design portfolio of Becky Hassler.">
+    
     <meta charset="utf-8">
     <title>Becky Hassler Design Portfolio</title>
 
