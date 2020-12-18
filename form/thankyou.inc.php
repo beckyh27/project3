@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Portfolio of Becky Hassler</title>
+    <title>Becky Hassler Design Portfolio</title>
 
     <!-- Stylesheet -->
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
@@ -14,14 +14,14 @@
 
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/scripts.js" type="text/text/javascript"></script>
+    <script src="../js/scripts.js" type="text/javascript"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- FAVIcon -->
-    <link rel="shortcut icon" href="../images/favicon.ico" type="img/ico">
+    <link rel="shortcut icon" href="../p3-hassler-rebecca/images/favicon.ico" type="img/ico">
 
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/1c337c1bea.js" crossorigin="anonymous"></script>
@@ -98,7 +98,7 @@
       .logo-div {
         position: relative;
         top: -35px;
-        background-image: url('../images/logo.png');
+        background-image: url('images/logo.png');
         width: 75px;
         height: 75px;
         background-repeat: no-repeat;
@@ -107,7 +107,7 @@
       }
 
       .logo-div:hover {
-        background-image: url('../images/reverse-logo.png');
+        background-image: url('images/reverse-logo.png');
         transition: 0.5s ease-in-out;
       }
       /*========================================================
@@ -152,6 +152,7 @@
       }
 
       footer p {
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         padding: 100px 0 100px;
       }
@@ -168,12 +169,12 @@
     <header>
       <nav>
         <ul>
-          <li><a href="../index.html#home" class="logo">
+          <li><a href="../p3-hassler-rebecca/index.html#home" class="logo">
               <div class="logo-div"></div>
             </a></li>
-          <li><a href="../index.html#about">About</a></li>
-          <li><a href="../index.html#work">Work</a></li>
-          <li><a href="../index.html#contact">Contact</a></li>
+          <li><a href="../p3-hassler-rebecca/index.html#about">About</a></li>
+          <li><a href="../p3-hassler-rebecca/index.html#work">Work</a></li>
+          <li><a href="../p3-hassler-rebecca/index.html#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -193,6 +194,6 @@
         Website by Becky Hassler
       </p>
     </footer>
-    
+
   </body>
 </html>

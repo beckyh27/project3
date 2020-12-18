@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Portfolio of Becky Hassler</title>
+    <title>Becky Hassler Design Portfolio</title>
 
     <!-- Stylesheet -->
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
@@ -14,14 +14,14 @@
 
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/scripts.js" type="text/text/javascript"></script>
+    <script src="../js/scripts.js" type="text/javascript"></script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- FAVIcon -->
-    <link rel="shortcut icon" href="../images/favicon.ico" type="img/ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/1c337c1bea.js" crossorigin="anonymous"></script>
@@ -155,6 +155,7 @@
       footer p {
         font-size: 16px;
         padding: 100px 0 100px;
+        font-family: 'Montserrat', sans-serif;
       }
     </style>
 
